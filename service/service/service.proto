@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+package service;
+option go_package = "github.com/divultion/nevern/service";
+
+service NevernService {
+  rpc ListConnectionIds(Empty) returns (stream ConnectionData) {}
+  rpc TryReadOutputById(ConnectionId) returns (Output) {}
+  rpc WriteInputById(Input) returns (WriteInputByIdResponse) {}
+  rpc ForgetById(ConnectionId) returns (Empty) {}
+  rpc DisconnectById(ConnectionId) returns (Empty) {}
+}
+
+message Empty {}
+
+message WriteInputByIdResponse {
+  int64 dataWritten = 1;
+}
+
+message Input {
+  string data = 1;
+  ConnectionId id = 2;
+}
+
+message Output {
+  string data = 1;
+  bool ok = 2;
+}
+
+message ConnectionData {
+  ConnectionId id = 1;
+  string address = 2;
+  uint32 messagesAvailable = 3;
+  bool connected = 4;
+}
+
+message ConnectionId {
+  bytes rawId = 1;
+}
