@@ -2,7 +2,7 @@
 ### In Short
 Nevern is a multi-client, multi-threaded reverse shell written in Go. We are aiming for backcompitability with all existing NetCat reverse shells.
 
-Disclaimer: This reverse shell should only be used in the lawful, remote administration of authorized systems. Accessing a computer network without authorization or permission is illegal. (Keep yuping ofc y need that to develop your botnet, if so consider giving me some `donations` PLS PLS PLS PLS PLS 🥲)
+Disclaimer: This reverse shell should only be used in the lawful, remote administration of authorized systems. Accessing a computer network without authorization or permission is illegal. (Keep yuping ofc y need that to develop your botnet, if so consider giving me a **[donation](https://github.com/divultion/nevern?tab=readme-ov-file#donations)** PLS PLS PLS PLS PLS 🥲)
 
 ## How Does It Work?
 `nevern@divultion` server consists of 2 main components:
