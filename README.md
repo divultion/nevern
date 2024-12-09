@@ -34,9 +34,9 @@ But for demonstation purposes we've added client.py so you can use that by runni
 `go build .`
 
 ### Donations
-BTC: `bc1qhfznv6y2anu88e2p2ysfvzryuz5y9vcw22u75u`
-ETH: `0xeAf0CafBB9eCde4Dc856f604F75195c8869Ae98A`
-LTC: `ltc1q8n3udq3r9rfx63x48gxat3wsyf843q7w6yewqr`
-DOGE: `DF2qchigxP7Lm8FCsrHKnT8odwAHf3S61j`
-SOL: `EZ5J7Jy5mGXQxsYFSMdFzGXASRGm49qeFWvWfHCjYV9D`
-XRP: `rh1ydmzXb8WKk9Y3hu7jVkWSGG8yTYVZ1F`
+BTC: `bc1qhfznv6y2anu88e2p2ysfvzryuz5y9vcw22u75u`</br>
+ETH: `0xeAf0CafBB9eCde4Dc856f604F75195c8869Ae98A`</br>
+LTC: `ltc1q8n3udq3r9rfx63x48gxat3wsyf843q7w6yewqr`</br>
+DOGE: `DF2qchigxP7Lm8FCsrHKnT8odwAHf3S61j`</br>
+SOL: `EZ5J7Jy5mGXQxsYFSMdFzGXASRGm49qeFWvWfHCjYV9D`</br>
+XRP: `rh1ydmzXb8WKk9Y3hu7jVkWSGG8yTYVZ1F`</br>
