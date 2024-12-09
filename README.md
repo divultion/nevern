@@ -1,3 +1,4 @@
+# nevern@divultion tg/ds
 ### In Short
 Nevern is a multi-client, multi-threaded reverse shell written in Go. We are aiming for backcompitability with all existing NetCat reverse shells.
 
